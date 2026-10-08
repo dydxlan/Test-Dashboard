@@ -1,5 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Admin Dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <aside id="sidebar">
+            <button id="sidebar-toggle">?</button>
+            <nav>
+                <ul>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Wind Farm</a></li>
+                    <li><a href="#">Anomalies</a></li>
+                    <li><a href="#">Countires</a></li>
+
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <h1>Admin Dashboard</h1>
+            <div class="cards">
+                <div class="card">
+                    <h2>Total Users</h2>
+                    <p class="stat">1,234</p>
+                    <p>Active users in the system</p>
+                </div>
+                <div class="card">
+                    <h2>Revenue</h2>
+                    <p class="stat">$45,678</p>
+                    <p>Monthly revenue generated</p>
+                </div>
+            </div>
+
+            <!-- Downloads section -->
+            <div style="display:none" class="data-table downloads">
+                <div class="title">
+                    <ion-icon name="chatbubbles-outline"></ion-icon>
+                    <span class="text">Comments</span>
+                </div>
+                <div>
+                    <!-- Enter any table or section here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+    
+    <!-- Sources for icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+
+</html><!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,45 +69,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <aside id="sidebar">
-            <button id="sidebar-toggle">Image</button>
-            <nav>
-                <ul>
-                    <li><a href="#">Overview</a></li>
-                    <li><a href="#">Wind Farm</a></li>
-                    <li><a href="#">Anomalies</a></li>
-                    <li><a href="#">Countires</a></li>
-                    <li><a href="#">Settings</a></li>
-                </ul>
-            </nav>
-        </aside>
-        <main>
-            <h1>h1 word/h1>
-            <div class="cards">
-                <div class="card">
-                    <h2>Map View</h2>
-                    <p class="stat">1,234</p>
-                    <p>Active users in the system</p>
-                </div>
-                <div class="card">
-                    <h2>Topology</h2>
-                    <p class="stat">$45,678</p>
-                    <p>Monthly revenue generated</p>
-                </div>
-                <div class="card">
-                    <h2>Orders</h2>
-                    <p class="stat">892</p>
-                    <p>Orders processed this month</p>
-                </div>
-                <div class="card">
-                    <h2>Growth</h2>
-                    <p class="stat">+23%</p>
-                    <p>Compared to last month</p>
-                </div>
-            </div>
-        </main>
-    </div>
-    <script src="script.js"></script>
+
 </body>
 </html>
